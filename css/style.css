@@ -2549,11 +2549,9 @@ body::after {
 }
 .search-by__articles {
   display: flex;
-  row-gap: 5.25rem;
   justify-content: space-between;
-  padding-inline: 0;
-  align-items: center;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  row-gap: 5.25rem
 }
 .search-by__articles li {
   flex: 0 1 264px
@@ -5179,6 +5177,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .prop__label {
     padding-inline: .9375rem;
     width: 100%
+  }
+  .search-by__list .search-by__link {
+    align-items: start;
+    text-align: left
   }
   .search-by__articles {
     flex-direction: column
